@@ -36,7 +36,7 @@ def _key_sorting(item):
 
 # The field class, as used by Link objects:
 
-Field = namedtuple('Field', ['name', 'required', 'location', 'type', 'description', 'example'])
+Field = namedtuple('Field', ['name', 'required', 'location', 'type', 'description', 'example', 'enum'])
 Field.__new__.__defaults__ = (False, '', '', '', None)
 
 
